@@ -33,11 +33,15 @@ jobs:
         run: |
           $tag = "v${{ steps.read-manifest.outputs.version }}"
           $result = git ls-remote --tags origin "refs/tags/$tag"
+          Write-Host "ls-remote result: $result"
           if ($result) {
+            Write-Host "Tag exists, skipping release"
             echo "exists=true" >> $env:GITHUB_OUTPUT
           } else {
+            Write-Host "Tag not found, will create release"
             echo "exists=false" >> $env:GITHUB_OUTPUT
           }
+          Write-Host "exists output set"
 
       - name: Package mod
         if: ${{ steps.read-manifest.outputs.version != '0.0.0' && steps.checkTag.outputs.exists == 'false' }}
