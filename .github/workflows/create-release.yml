@@ -52,7 +52,7 @@ jobs:
           Copy-Item OWCHT/manifest.json $uniqueName/
           Copy-Item OWCHT/default-config.json $uniqueName/
           Copy-Item -Recurse OWCHT/Assets $uniqueName/
-          Copy-Item "OWCHT/Translations txt/translation.txt" $uniqueName/
+          Copy-Item "OWCHT/Translation_Text/translation.txt" $uniqueName/
           Compress-Archive -Path $uniqueName -DestinationPath "$uniqueName.zip"
 
       - name: Create Release

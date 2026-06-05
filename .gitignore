@@ -7,13 +7,13 @@ references
 # 本機設定（含私人路徑）
 *.csproj.user
 *.slnLaunch.user
-OWCHT/tools/local_config.json
+OWCHT/tools/
 CLAUDE.md
 .claude/
 
 # 腳本生成物（不需版本控制）
 OWCHT/tools/translation.txt
-OWCHT/Translations txt/translation.xliff
+OWCHT/Translation_Text/translation.xliff
 
 # 本機圖片素材（已上傳至 GitHub CDN）
 精修.png
