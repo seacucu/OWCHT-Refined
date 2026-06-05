@@ -4,9 +4,11 @@ Outer Wilds CHT Translation converter
 1. Translation.txt → XLIFF 1.2  (for memoQ)
 2. XLIFF 1.2 → Translation.txt  (rebuild after editing)
 
-Mode 2 outputs to two locations:
-  - OWCHT/Translations txt/translation.txt  (repo copy, for git diff)
-  - mod folder path defined in OWCHT/tools/local_config.json  (optional, gitignored)
+檔案位置：
+  - OWCHT/Translations txt/translation.xliff    （Mode 1 生成，memoQ 匯入用）
+  - OWCHT/Translations txt/translation_zho-TW.xliff  （memoQ 匯出，放這裡）
+  - OWCHT/Translations txt/translation.txt      （Mode 2 生成，repo 版本）
+  - mod 資料夾/Translation.txt                  （Mode 2 生成，本機測試用）
 """
 
 import json
@@ -19,9 +21,10 @@ from xml.dom import minidom
 XLIFF_NS = 'urn:oasis:names:tc:xliff:document:1.2'
 
 # tools/ 所在目錄（OWCHT/tools/）
-TOOLS_DIR  = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT  = os.path.dirname(os.path.dirname(TOOLS_DIR))  # 往上兩層到 repo root
-REPO_TXT   = os.path.join(REPO_ROOT, 'OWCHT', 'Translations txt', 'translation.txt')
+TOOLS_DIR    = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT    = os.path.dirname(os.path.dirname(TOOLS_DIR))  # 往上兩層到 repo root
+TRANS_DIR    = os.path.join(REPO_ROOT, 'OWCHT', 'Translations txt')
+REPO_TXT     = os.path.join(TRANS_DIR, 'translation.txt')
 LOCAL_CONFIG = os.path.join(TOOLS_DIR, 'local_config.json')
 
 
@@ -185,13 +188,14 @@ def main():
     choice = input("選擇 (1/2): ").strip()
 
     if choice == '1':
-        src = prompt_path("Translation.txt 路徑")
-        default_dst = os.path.join(os.path.dirname(src), 'translation.xliff')
+        default_src = REPO_TXT
+        src = prompt_path("Translation.txt 路徑", default=default_src)
+        default_dst = os.path.join(TRANS_DIR, 'translation.xliff')
         dst = prompt_path("輸出 XLIFF 路徑", default=default_dst)
         translation_to_xliff(src, dst)
 
     elif choice == '2':
-        default_xliff = os.path.join(TOOLS_DIR, 'translation_zho-TW.xliff')
+        default_xliff = os.path.join(TRANS_DIR, 'translation_zho-TW.xliff')
         xliff = prompt_path("XLIFF 路徑", default=default_xliff)
         xliff_to_translation(xliff)
 

@@ -13,6 +13,7 @@ CLAUDE.md
 
 # 腳本生成物（不需版本控制）
 OWCHT/tools/translation.txt
+OWCHT/Translations txt/translation.xliff
 
 # 本機圖片素材（已上傳至 GitHub CDN）
 精修.png
