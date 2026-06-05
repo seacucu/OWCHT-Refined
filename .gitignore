@@ -4,6 +4,9 @@ bin
 obj
 references
 
+# Windows 暫存資料夾
+%TEMP%/
+
 # 本機設定（含私人路徑）
 *.csproj.user
 *.slnLaunch.user

@@ -1,6 +1,3 @@
 {
-  "enabled": true,
-  "settings": {
-	  "Show Characters Names in English": false
-  }
+  "enabled": true
 }
