@@ -2,11 +2,11 @@
 <TranslationTable_XML>
   <entry>
     <key>How can the &lt;color=lightblue&gt;Eye&lt;/color&gt; be older than the universe itself?</key>
-    <value>怎麼可能&lt;color=lightblue&gt;眼&lt;/color&gt;比宇宙本身還要古老？</value>
+    <value>怎麼可能&lt;color=lightblue&gt;眼&lt;/color&gt;會比宇宙本身還要古老？</value>
   </entry>
   <entry>
     <key>Suppose it is a relic from a previous universe.</key>
-    <value>恐怕它是來自上一個宇宙的遺物。</value>
+    <value>恐怕是上一個宇宙遺留下來的產物。</value>
   </entry>
   <entry>
     <key>The early universe was unimaginably hot and dense. If anything existed before, it would have been destroyed.</key>
@@ -14,7 +14,7 @@
   </entry>
   <entry>
     <key>Suppose the universe is older than previously assumed.</key>
-    <value>恐怕這個宇宙的歷史比人們以為得還要久遠。</value>
+    <value>恐怕這個宇宙的歷史比人們以為的還要久遠。</value>
   </entry>
   <entry>
     <key>The &lt;color=orange&gt;Ash Twin Project&lt;/color&gt; requires a powerful, highly advanced warp core. How should we obtain it?</key>
@@ -34,7 +34,7 @@
   </entry>
   <entry>
     <key>POKE: I believe I can be of use here! The &lt;color=orange&gt;Vessel&lt;/color&gt;’s warp core was created before my time, but Annona explained many of his designs to me.</key>
-    <value>珀克：我相信我可以派上用場！雖然在我出生之前，&lt;color=orange&gt;飛船&lt;/color&gt;的躍遷核心就被製作出來了。不過安諾納給我解釋過他的許多設計思路。</value>
+    <value>珀克：我相信我可以派上用場！雖然在我出生之前，&lt;color=orange&gt;飛船&lt;/color&gt;的躍遷核心就被製作出來了。不過安諾納跟我解釋過他的許多設計思路。</value>
   </entry>
   <entry>
     <key>IDAEA: This is the safest path for our clan.</key>
@@ -94,7 +94,7 @@
   </entry>
   <entry>
     <key>POKE: Still, all I can give is my best. And as Annona would say, should my best prove insufficient, then we will find another way to achieve what’s needed. I have Clary and Root in the forge, and I have my clan. I am not alone!</key>
-    <value>珀克：無論如何，我只能盡力而為。就像安諾納說得那樣，如果全力以赴還不夠，那麼我們就要想別的辦法去達成必要的目標。還有克萊瑞和魯特會在熔爐幫我，我還有自己的家族。我並不孤獨！</value>
+    <value>珀克：無論如何，我只能盡力而為。就像安諾納說的那樣，如果全力以赴還不夠，那麼我們就要想別的辦法去達成必要的目標。還有克萊瑞和魯特會在熔爐幫我，我還有自己的家族。我並不孤獨！</value>
   </entry>
   <entry>
     <key>SOLANUM: Formation Of This Universe</key>
@@ -1667,7 +1667,7 @@
   </entry>
   <entry>
     <key>FoundSomethingMenuNice, nice. Whatcha got for me?</key>
-    <value>好，好。你給我帶來了什麼消息？</value>
+    <value>好，好。你有什麼消息要給我？</value>
   </entry>
   <entry>
     <key>GabbroFoundSomethingMenuI reached the inside of Statue Island.</key>
@@ -2647,7 +2647,7 @@
   </entry>
   <entry>
     <key>SlateSlate_ShipLog_1Use the ship log to mark a location I want to revisit. Got it.</key>
-    <value>用飛船日誌給我想再去一趟的地方做標記。明白了。</value>
+    <value>用飛船日誌在我想再去一趟的地方做標記。明白了。</value>
   </entry>
   <entry>
     <key>SlateSlate_ShipLog_1How minimal are we talking?</key>
@@ -3387,7 +3387,7 @@
   </entry>
   <entry>
     <key>CASSAVA: Conoy, I’m unable to grasp the answer by looking through the &lt;color=orange&gt;projection pool&lt;/color&gt;. If I visit the &lt;color=orange&gt;observatory&lt;/color&gt;, would you kindly explain?</key>
-    <value>卡薩瓦：科諾伊，光是看&lt;color=orange&gt;投影池&lt;/color&gt;我無法理解其中的原因。如果我造訪&lt;color=orange&gt;天文台&lt;/color&gt;，能不能請你給我解釋一下？</value>
+    <value>卡薩瓦：科諾伊，光是看&lt;color=orange&gt;投影池&lt;/color&gt;我無法理解其中的原因。如果我造訪&lt;color=orange&gt;天文台&lt;/color&gt;，能不能請你解釋一下？</value>
   </entry>
   <entry>
     <key>CONOY: If you don’t mind the trek beneath the surface to the south pole, I’d be delighted to see you! (There are two trailheads, one at &lt;color=lightblue&gt;Brittle Hollow&lt;/color&gt;'s &lt;color=orange&gt;gravity cannon&lt;/color&gt; and one at the &lt;color=orange&gt;Tower of Quantum Knowledge&lt;/color&gt;.)</key>
@@ -7124,7 +7124,7 @@
   </entry>
   <entry>
     <key>RiebeckExploreGood luck with exploring. Um, if you learn anything about the Nomai, I’d love to hear it, &lt;size=20&gt;if it’s not too much trouble?&lt;/size&gt;</key>
-    <value>祝你探索的時候好運。嗯，如果你了解到了什麼有關挪麥人的情報，那麼不介意的話，是不是也能說給我聽聽？</value>
+    <value>祝你探索的時候好運。嗯，如果你了解到了什麼有關挪麥人的情報，那麼&lt;size=20&gt;不介意的話&lt;/size&gt;，是不是也能說給我聽聽？</value>
   </entry>
   <entry>
     <key>RiebeckLearnedOh, cool! &lt;Pause/&gt;Um, what is it?</key>
@@ -7804,7 +7804,7 @@
   </entry>
   <entry>
     <key>PHLOX: If anything goes wrong with the &lt;color=orange&gt;Ash Twin Project&lt;/color&gt;, the statues (and their masks) will make us aware of the situation and enable us to fix it. Otherwise, it would be possible for us to remain permanently unaware of the problem.</key>
-    <value>弗拉克斯：如果&lt;color=orange&gt;灰燼雙星計劃&lt;/color&gt;出現問題，雕像（還有它們的面具）可以把情況通知給我們，讓我們進行修復。不然的話，我們就可能永遠也不知道出了什麼問題。</value>
+    <value>弗拉克斯：如果&lt;color=orange&gt;灰燼雙星計劃&lt;/color&gt;出現問題，雕像（還有它們的面具）可以把情況通知我們，讓我們進行修復。不然的話，我們就可能永遠也不知道出了什麼問題。</value>
   </entry>
   <entry>
     <key>RAMIE: I hadn’t thought of that! What a profoundly horrific fate that would be.</key>
@@ -10903,7 +10903,7 @@ LOADING...???
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Sealed VaultThe Prisoner left one final vision for me by the water's edge as a farewell.</key>
-      <value>幽禁者在水邊給我留下了最後一段幻象作為告別。</value>
+      <value>幽禁者在水邊留下了最後一段幻象作為道別。</value>
     </TranslationTableEntry>
     <TranslationTableEntry>
       <key>Shrouded Woodlands</key>
@@ -13521,11 +13521,11 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>902</key>
-      <value>振動</value>
+      <value>震動</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>903</key>
-      <value>按鈕重新映射</value>
+      <value>按鈕映射</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>904</key>
@@ -13537,7 +13537,7 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>906</key>
-      <value>照片模式</value>
+      <value>照相模式</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>907</key>
@@ -14261,7 +14261,7 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1140</key>
-      <value>啟用控制器振動（僅適用於控制器）。</value>
+      <value>啟用控制器震動。</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1141</key>
@@ -14305,11 +14305,11 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1155</key>
-      <value>將控制器映射變更為所選控制器對應映射</value>
+      <value>將控制器映射變更為所選控制器映射</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1156</key>
-      <value>將顯示的按鈕圖像變更為所選控制器對應圖像</value>
+      <value>將按鈕圖示變更為所選控制器式樣</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1157</key>
@@ -15037,11 +15037,11 @@ LOADING...???
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1054</key>
-      <value>常規</value>
+      <value>一般</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1055</key>
-      <value>大號</value>
+      <value>放大</value>
     </TranslationTableEntryUI>
     <TranslationTableEntryUI>
       <key>1194</key>
