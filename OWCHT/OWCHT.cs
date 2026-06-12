@@ -115,7 +115,7 @@ namespace OWCHT
             ___m_table = null;
             TextAsset textAsset = null;
             string xml;
-            string externalPath = self.ModHelper.Manifest.ModFolderPath + "Translation.txt";
+            string externalPath = self.ModHelper.Manifest.ModFolderPath + "Translation.xml";
             if (System.IO.File.Exists(externalPath))
             {
                 self.ModHelper.Console.WriteLine("Loading translation from external file: " + externalPath);
@@ -140,17 +140,17 @@ namespace OWCHT
             foreach (object obj in xmlNodeList)
             {
                 XmlNode xmlNode2 = (XmlNode)obj;
-                translationTable_XML.table.Add(new TextTranslation.TranslationTableEntry(xmlNode2.SelectSingleNode("key").InnerText, xmlNode2.SelectSingleNode("value").InnerText));
+                translationTable_XML.table.Add(new TextTranslation.TranslationTableEntry(xmlNode2.SelectSingleNode("key").InnerText.Trim(), xmlNode2.SelectSingleNode("value").InnerText.Trim()));
             }
             foreach (object obj2 in xmlNode.SelectSingleNode("table_shipLog").SelectNodes("TranslationTableEntry"))
             {
                 XmlNode xmlNode3 = (XmlNode)obj2;
-                translationTable_XML.table_shipLog.Add(new TextTranslation.TranslationTableEntry(xmlNode3.SelectSingleNode("key").InnerText, xmlNode3.SelectSingleNode("value").InnerText));
+                translationTable_XML.table_shipLog.Add(new TextTranslation.TranslationTableEntry(xmlNode3.SelectSingleNode("key").InnerText.Trim(), xmlNode3.SelectSingleNode("value").InnerText.Trim()));
             }
             foreach (object obj3 in xmlNode.SelectSingleNode("table_ui").SelectNodes("TranslationTableEntryUI"))
             {
                 XmlNode xmlNode4 = (XmlNode)obj3;
-                translationTable_XML.table_ui.Add(new TextTranslation.TranslationTableEntryUI(int.Parse(xmlNode4.SelectSingleNode("key").InnerText), xmlNode4.SelectSingleNode("value").InnerText));
+                translationTable_XML.table_ui.Add(new TextTranslation.TranslationTableEntryUI(int.Parse(xmlNode4.SelectSingleNode("key").InnerText.Trim()), xmlNode4.SelectSingleNode("value").InnerText.Trim()));
             }
             ___m_table = new TextTranslation.TranslationTable(translationTable_XML);
             if (textAsset != null) Resources.UnloadAsset(textAsset);
